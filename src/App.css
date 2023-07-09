@@ -27,3 +27,10 @@ select{
 option{
     color: #10283F;
 }
+.footer a {
+    font-size: 12px;
+}
+.footer .MuiSvgIcon-root{
+    font-size: 25px !important;
+    margin-left: 3px !important;
+}
