@@ -37,3 +37,6 @@ option{
 li{
     padding: 5px 0;
 }
+.footer .h3:hover, .footer .h3:active{
+    color: #C34D0A;
+}

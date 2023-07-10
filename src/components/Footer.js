@@ -16,7 +16,7 @@ function Footer() {
           <h2 className='font-bold'>Quick links</h2>
           <h3><a href='#12'>Properties</a></h3>
           <Link to='/terms_and_conditions'><h3>Terms and conditions</h3></Link>
-          <h3><a href='#12'>Privacy policy</a></h3>
+          <Link to='/privacy_policy'><h3>Privacy policy</h3></Link>
         </div>
         <div className='footer text-white text-sm'>
           <h2 className='font-bold'>Contact uS</h2>
