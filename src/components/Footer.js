@@ -3,6 +3,7 @@ import logo from '../assets/logo_white.png'
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className='bg-primary p-5 pt-9'>
@@ -14,7 +15,7 @@ function Footer() {
         <div className='footer text-white text-sm'>
           <h2 className='font-bold'>Quick links</h2>
           <h3><a href='#12'>Properties</a></h3>
-          <h3><a href='#12'>Terms and conditions</a></h3>
+          <Link to='/terms_and_conditions'><h3>Terms and conditions</h3></Link>
           <h3><a href='#12'>Privacy policy</a></h3>
         </div>
         <div className='footer text-white text-sm'>

@@ -11,7 +11,8 @@ module.exports = {
       primary: '#10283F',
       blue2: '#10283f59',
       primary2: '#C34D0A',
-      white: '#ffffff'
+      white: '#ffffff',
+      white2: '#f0f8ff'
     },
     extend: {},
   },

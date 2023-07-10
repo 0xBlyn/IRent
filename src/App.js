@@ -3,15 +3,20 @@ import './App.css';
 import Searchbar from './components/Searchbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Terms from './components/Terms';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header />
       <Searchbar />
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/terms_and_conditions" element={<Terms />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

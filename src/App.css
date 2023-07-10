@@ -34,3 +34,6 @@ option{
     font-size: 25px !important;
     margin-left: 3px !important;
 }
+li{
+    padding: 5px 0;
+}
