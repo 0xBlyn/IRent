@@ -6,6 +6,9 @@ import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Terms from './components/Terms';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import Contact from './components/Contact';
+import Login from './components/Login';
+import Signup from './components/Signup'
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/terms_and_conditions" element={<Terms />} />
         <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+        <Route path="/contact_us" element={<Contact />} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
       <Footer />
     </BrowserRouter>

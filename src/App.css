@@ -37,6 +37,16 @@ option{
 li{
     padding: 5px 0;
 }
-.footer .h3:hover, .footer .h3:active{
+.footer a:hover, .footer h3:active{
     color: #C34D0A;
+}
+.footer h3 a .MuiSvgIcon-root{
+    font-size: 14px !important;
+    margin: 0 2px;
+}
+.contact .MuiSvgIcon-root{
+    margin-right: 5px !important;
+}
+placeholder{
+    font-size: 12px;
 }

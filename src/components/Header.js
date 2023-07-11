@@ -4,6 +4,7 @@ import lottie from 'lottie-web';
 import { defineElement } from 'lord-icon-element';
 import { Avatar } from '@mui/material';
 import avatar from '../assets/avatar.png'
+import { Link } from 'react-router-dom';
 // define "lord-icon" custom element with default properties
 defineElement(lottie.loadAnimation);
 function Header() {
@@ -23,7 +24,7 @@ function Header() {
         <lord-icon src="https://cdn.lordicon.com/msetysan.json" trigger="hover" colors="primary:#fff" style={{width:"28px",height:"28px"}}></lord-icon>
         <lord-icon src="https://cdn.lordicon.com/ausvvtws.json" trigger="hover" colors="primary:#fff" style={{width:"28px",height:"28px",paddingLeft:"11px"}}></lord-icon>
         <lord-icon src="https://cdn.lordicon.com/xryjrepg.json" trigger="hover"  colors="primary:#fff" style={{width:"28px",height:"28px",paddingLeft:"19px"}}></lord-icon>
-        <Avatar alt="Blossom" src={avatar} sx={{ width: 30, height: 30 }} className='ml-7' />
+        <Link to='/login'><Avatar alt="Blossom" src={avatar} sx={{ width: 30, height: 30 }} className='ml-7' /></Link>
       </div>
     </div>
   )

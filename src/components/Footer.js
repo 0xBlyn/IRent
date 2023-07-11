@@ -4,6 +4,9 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Link } from "react-router-dom";
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import MailIcon from '@mui/icons-material/Mail';
+import PhoneIcon from '@mui/icons-material/Phone';
 function Footer() {
   return (
     <div className='bg-primary p-5 pt-9'>
@@ -17,12 +20,13 @@ function Footer() {
           <h3><a href='#12'>Properties</a></h3>
           <Link to='/terms_and_conditions'><h3>Terms and conditions</h3></Link>
           <Link to='/privacy_policy'><h3>Privacy policy</h3></Link>
+          <Link to='/contact_us'><h3>Contact us</h3></Link>
         </div>
         <div className='footer text-white text-sm'>
           <h2 className='font-bold'>Contact uS</h2>
-          <h3><a href='#12'>34 Oron Road</a></h3>
-          <h3><a href='#12'>irent@gmail.com</a></h3>
-          <h3><a href='#12'>08096743888</a></h3>
+          <h3><a href='https://goo.gl/maps/yKk7fZVG1BuhKC5k8' alt='link to map' target='_blank' rel='noreferrer'><LocationOnIcon />34 Oron Road</a></h3>
+          <h3><a href='https://mail.google.com/mail/u/0/#inbox' target='_blank' rel='noreferrer'><MailIcon />irent@gmail.com</a></h3>
+          <h3><a href='tel:+2347033333333' target='_blank' rel='noreferrer'  ><PhoneIcon />08096743888</a></h3>
         </div>
       </div>
       <div className='py-4 flex justify-evenly items-center'>
