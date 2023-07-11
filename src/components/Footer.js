@@ -12,7 +12,7 @@ function Footer() {
     <div className='bg-primary p-5 pt-9'>
       <div className='flex justify-between pb-2'>
         <div className='max-w-[30%]'>
-          <img className='max-w-[100px] mb-[-30px] ml-[-8px] mt-[-24px]' src={ logo } alt='irent logo' />
+        <Link to='/'><img className='max-w-[100px] mb-[-30px] ml-[-8px] mt-[-24px]' src={ logo } alt='irent logo' /></Link>
           <h3 className='text-white text-xs'>Connecting you to the best houses.</h3>
         </div>
         <div className='footer text-white text-sm'>

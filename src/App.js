@@ -9,6 +9,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import Contact from './components/Contact';
 import Login from './components/Login';
 import Signup from './components/Signup'
+import Signup2 from './components/SIgnup_2';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact_us" element={<Contact />} />
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/finish_signup" element={<Signup2 />} />
       </Routes>
       <Footer />
     </BrowserRouter>

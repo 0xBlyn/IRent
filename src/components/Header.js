@@ -11,7 +11,7 @@ function Header() {
   return (
     <div className='bg-primary flex h-14 pt-2 px-3 items-center justify-between relative'>
       <div>
-        <img className='w-[120px]' src={ logo } alt='irent logo' />
+        <Link to='/'><img className='w-[120px]' src={ logo } alt='irent logo' /></Link>
       </div> 
       <div className='flex mt-[-2%] lg:mt-[-7px] mr-2'>
       <div className='hidden md:flex items-center justify-between '>

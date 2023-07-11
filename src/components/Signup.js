@@ -37,7 +37,7 @@ function Signup() {
                 <input type='email' placeholder='Confirm password' className='w-full py-[3vh]  pl-[3vw] lg:pl-[3vh] h-[5vh] mb-4 rounded-[10px] shadow [1px 4px 54px 13px rgba(0, 0, 0, 0.08)] bg-white' />
                 </div>
                 <div className='text-primary text-left flex'> 
-                <h3 className='text-sm'><input type='radio' important className='mr-2'/>I have read and accepted<Link to='/terms_and_conditions' className='text-orange'> Terms</Link> and<Link to='/terms_and_conditions' className='text-orange'> Conditions</Link></h3>
+                <h3 className='text-sm'><input type='radio' important className='mr-2'/>I have read and accepted<Link to='/terms_and_conditions' className='text-primary2'> Terms</Link> and<Link to='/terms_and_conditions' className='text-primary2'> Conditions</Link></h3>
                 </div>               
                 <div className= 'flex pt-[5%] justify-around'>
                   <Link to='/finish_signup'><button type='submit' className='bg-primary rounded-[10px] text-white px-5 py-2 text-[12px]'>
